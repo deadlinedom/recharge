@@ -110,15 +110,20 @@
         <div class="seal" aria-hidden="true">
           <svg viewBox="0 0 200 200">
             <defs>
-              <path id="seal-path" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0" />
+              <path id="seal-path" d="M100,100 m0,-80.5 a80.5,80.5 0 1,1 0,161 a80.5,80.5 0 1,1 0,-161" />
             </defs>
             <circle cx="100" cy="100" r="97" fill="none" stroke="currentColor" stroke-width="1.2" />
             <circle cx="100" cy="100" r="64" fill="none" stroke="currentColor" stroke-width="0.7" />
             <text class="seal-text">
-              <textPath href="#seal-path">TOP UP YOURSELF · TOP UP YOURSELF · </textPath>
+              <textPath href="#seal-path" textLength="506" lengthAdjust="spacing">TOP UP YOURSELF · TOP UP YOURSELF · </textPath>
             </text>
-            <path d="M78 118c6-16 16-28 28-32 2 8-2 18-10 28 8 2 16 2 24-4-2 12-12 22-26 26-10-4-16-12-16-18z" fill="none" stroke="currentColor" stroke-width="1.5"/>
-            <path d="M92 96c8-2 16 2 20 10M108 90c6 8 6 18-1 26" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+            <g class="seal-glass" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M84 68h32" />
+              <path d="M84 68c0 17 6.5 31 16 36 9.5-5 16-19 16-36" />
+              <path d="M89 84c3.5 8 7.5 12 11 12s7.5-4 11-12" />
+              <path d="M100 104v22" />
+              <path d="M88 126c4 7 20 7 24 0" />
+            </g>
           </svg>
         </div>
         <p class="script expect-kicker">Here’s what to expect</p>
